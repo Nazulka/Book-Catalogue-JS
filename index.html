@@ -23,49 +23,44 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <h1 class="mt-4 mx-auto">Add Book</h1>
-        </div>
-        <div class="row">
-            <form id="book-form">
-                <div class="mb-3">
-                    <label for="title" class="form-label">Title</label>
-                    <input type="text" id="title" class="form-control" placeholder="Title">
-                </div>
-                <div class="mb-3">
-                    <label for="author" class="form-label">Author</label>
-                    <input type="text" id="author" class="form-control" placeholder="Auhor">
-                </div>
-                <div class="mb-3">
-                    <label for="isbn" class="form-label">ISBN#</label>
-                    <input type="text" id="isbn" class="form-control" placeholder="ISBN">
-                </div>
-                <div class="mb-5">
-                    <input class="btn btn-primary" type="submit" value="Submit">
-                </div>
-            </form>
-            <hr>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Author</th>
-                        <th scope="col">ISBN</th>
-                        <th scope="col"></th>
-                    </tr>
-                </thead>
-                <tbody id="book-catalogue">
-                    
-                </tbody>
-            </table>
-        </div>
+        <h1 class="mt-4 mx-auto">Add Book</h1>
+        <form id="book-form">
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" id="title" class="form-control" placeholder="Title">
+            </div>
+            <div class="mb-3">
+                <label for="author" class="form-label">Author</label>
+                <input type="text" id="author" class="form-control" placeholder="Auhor">
+            </div>
+            <div class="mb-3">
+                <label for="isbn" class="form-label">ISBN#</label>
+                <input type="text" id="isbn" class="form-control" placeholder="ISBN">
+            </div>
+            <div class="mb-5">
+                <input class="btn btn-primary" type="submit" value="Submit">
+            </div>
+        </form>
+        <hr>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">ISBN</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody id="book-catalogue">
+            </tbody>
+        </table>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
-    <script src="app.js"></script>
+    <script src="appes6.js"></script>
 </body>
 </html>
 
